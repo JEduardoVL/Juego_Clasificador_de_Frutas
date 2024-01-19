@@ -1,0 +1,82 @@
+/* Estilos para el fondo completo */
+.background-style {
+    background-image: url("../images/nuevaP.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  /* Estilos para el contenedor de contenido */
+  .content-style {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 5vh auto;
+    width: 80%;
+    z-index: 2;
+  }
+  
+  /* Estilos para las tarjetas */
+  .card-style {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para las imágenes dentro de las tarjetas */
+  .image-style {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los textos debajo de las imágenes */
+  .text-style {
+    margin-top: 5px;
+  }
+
+  .image-container {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #e9ecef;
+  }
+  
+  .image-placeholder {
+    height: 100px; 
+    line-height: 100px; /* Ajusta para centrar verticalmente el texto */
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+
+  .full-width-input input {
+    width: 100%;
+    border-radius: 8px; /* Esto redondeará los bordes */
+    border: 1px solid #ccc; /* Esto suaviza el borde haciendo el color más claro y el borde más delgado */
+    margin-bottom: 20px; /* Esto agrega espacio debajo de la caja de texto */
+    padding: 10px; /* Esto añade algo de espacio interno para que el texto no esté justo en el borde */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* Esto puede añadir un ligero efecto de sombra interna para suavizar aún más la apariencia */
+  }

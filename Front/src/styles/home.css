@@ -1,0 +1,68 @@
+/* Estilos para el contenedor principal */
+.home-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Estilos para el fondo con imagen */
+.background-image {
+  background-image: url("../images/Fondo_CRUD.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Estilos para la tabla de bienvenida */
+.welcome-table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.welcome-table td {
+  border: none;
+  padding: 0.5rem;
+}
+
+/* Estilos para el texto de bienvenida */
+.welcome-text {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+/* Estilos para el botón de salir */
+.logout-button {
+  margin-right: 1rem;
+}
+
+/* Estilos para el contenido */
+.content-container {
+  z-index: 1;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Estilos para el título */
+.title {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+/* Estilos para el botón de nueva pregunta */
+.new-question-button {
+  margin: 12px;
+}
+
+/* Estilos para la tabla de preguntas */
+.question-table {
+  background-color: white;
+}

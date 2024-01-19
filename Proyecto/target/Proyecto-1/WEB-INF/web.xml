@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>API.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Preguntas</servlet-name>
+        <servlet-class>API.Preguntas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pregunta</servlet-name>
+        <servlet-class>API.Pregunta</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Preguntas</servlet-name>
+        <url-pattern>/Preguntas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pregunta</servlet-name>
+        <url-pattern>/Pregunta</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>EliminarJuego</servlet-name>
+    <servlet-class>API.EliminarJuego</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EliminarJuego</servlet-name>
+        <url-pattern>/EliminarJuego</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>GuardarJuego</servlet-name>
+    <servlet-class>API.GuardarJuego</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GuardarJuego</servlet-name>
+        <url-pattern>/GuardarJuego</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>ActualizarJuego</servlet-name>
+    <servlet-class>API.ActualizarJuego</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ActualizarJuego</servlet-name>
+        <url-pattern>/ActualizarJuego</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>Salir</servlet-name>
+    <servlet-class>API.Salir</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Salir</servlet-name>
+        <url-pattern>/Salir</url-pattern>
+    </servlet-mapping>
+    
+   
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
